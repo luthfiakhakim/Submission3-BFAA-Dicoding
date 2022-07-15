@@ -1,0 +1,76 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Submission_GitHubUserApp" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/dark</item>
+        <item name="colorOnPrimary">@color/soft_black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_light</item>
+        <item name="colorSecondaryVariant">@color/blue_dark</item>
+        <item name="colorOnSecondary">@color/soft_black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Text Action Bar -->
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/soft_black</item>
+    </style>
+
+    <!-- Penambahan Style Baru -->
+    <style name="TextUsername">
+        <item name="android:text">Username</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/soft_black</item>
+        <item name="android:fontFamily">@font/inter_semi_bold</item>
+    </style>
+    <style name="TextName">
+        <item name="android:text">Name</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/soft_black</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextLocation">
+        <item name="android:text">Location</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextOrganization">
+        <item name="android:text">Organization</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextUsernameDetail">
+        <item name="android:text">Username</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/soft_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/inter_semi_bold</item>
+    </style>
+    <style name="TextNameDetail">
+        <item name="android:text">Name</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/soft_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/inter_semi_bold</item>
+    </style>
+    <style name="TextCompany">
+        <item name="android:text">Company</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/soft_black</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+    <style name="TextLocationDetail">
+        <item name="android:text">Location</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/inter_regular</item>
+    </style>
+</resources>

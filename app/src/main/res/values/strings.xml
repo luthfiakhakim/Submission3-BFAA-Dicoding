@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GitHub User App</string>
+    <string name="repository">Repository</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_follow">Empty</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="version">GitHub User App v1.0.0</string>
+    <string name="credit">Copyright \u00a9 2022, Luthfi Abdul Khakim</string>
+    <!-- Other string resources-->
+
+</resources>
